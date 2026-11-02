@@ -1,0 +1,6 @@
+num1_1 = input("Введите первое целое число: ")
+num2_2 = input("Введите второе целое число: ")
+num1 = int(num1_1)
+num2 = int(num2_2)
+result = num1 + num2
+print("Результат сложения:", result)
