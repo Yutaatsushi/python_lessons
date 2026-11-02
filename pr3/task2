@@ -1,0 +1,14 @@
+my_list = [1, 2, 3]
+print(my_list)
+my_list[0] = [100]
+print(my_list) #списки изменяемые, поэтому замена проходит без проблем#
+
+my_tuple = (1, 2, 3)
+print(my_tuple)
+my_tuple[0] = (1, 2, 3)
+print(my_tuple) #выдает ошибку. Кортежи неизменяемые#
+
+my_string = "cat"
+print(my_string)
+my_string[0] = "b"
+print(my_string) #выдает ошибку. Строки неизменяемые, напрямую изменить нельзя#
