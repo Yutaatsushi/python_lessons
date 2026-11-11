@@ -1,0 +1,4 @@
+import math
+place = int(input("Введите номер места"))
+kupe = math.ceil(place / 4)
+print(kupe)
