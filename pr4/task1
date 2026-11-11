@@ -1,0 +1,5 @@
+import math
+Number_x = float(input('Введите вещественное число'))
+x_ceil = math.ceil(Number_x)
+x_floor = math.floor(Number_x)
+print(x_ceil, x_floor)
