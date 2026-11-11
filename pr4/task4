@@ -1,0 +1,6 @@
+n = int(input("Введите количество школьников"))
+k = int(input("Введите количество мандаринов"))
+per_student = n / k
+left_in_basket = k % n
+print(per_student)
+print(left_in_basket)
