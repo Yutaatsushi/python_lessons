@@ -1,0 +1,4 @@
+all_minutes = int(input("Введите количесвто минут"))
+hours = all_minutes // 60
+remain_minuted =  all_minutes % 60
+print(all_minutes, "минуты - это", hours, "час", remain_minuted,"минут")
