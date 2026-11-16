@@ -1,0 +1,14 @@
+import math
+def calculate_rectangle_area(width, height):
+    '''Вычисляет площадь треугольника и возвращает'''
+    return width * height
+def calculate_circle_area(radius):
+    '''Вычисляет радиус круга и возвращает'''
+    return math.pi * (radius ** 2)
+rect_width = float(input('Введите ширину: '))
+rect_height = float(input('Введите высоту: '))
+rect_area = calculate_rectangle_area(rect_width, rect_height)
+print(f'Площадь треугольника: {rect_area: .2f}')
+circle_radius = float(input('Введите радиус: '))
+circle_area = calculate_circle_area(circle_radius)
+print(f'Радиус круга: {rect_area: .2f}')
