@@ -1,0 +1,8 @@
+dohod = int(input('Введите ваш годовой доход: '))
+procent_naloga = 0.13
+nalog = dohod * procent_naloga
+summ_na_ruki = dohod - nalog
+
+print(f'Общая сумма дохода: {dohod: .2f} руб')
+print(f'Сумма рассчитанного налога: {nalog: .2f} руб')
+print(f'Сумма «на руки» после вычета налога: {summ_na_ruki: .2f} руб')
